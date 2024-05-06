@@ -71,7 +71,7 @@ public class CalculatorV13 {
 
 }
 class Roman {
-    static String[] romanArray = new String[]{"0","I","II","III","IV","V","VI","VII","VIII","IX","X","XI", "XII","XIII","XIV","XV","XVI","XVII","XVIII","XIX","XX"}; // массив на римскеие цифры
+    static String[] romanArray = new String[]{"0","I","II","III","IV","V","VI","VII","VIII","IX","X","XI","XII","XIII","XIV","XV","XVI","XVII","XVIII","XIX","XX"}; // массив на римскеие цифры
 
     public static boolean isRoman(String val) {
         for (int i=0; i<romanArray.length; i++) {
